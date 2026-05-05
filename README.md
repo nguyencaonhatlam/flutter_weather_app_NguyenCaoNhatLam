@@ -17,3 +17,4 @@ Ngoài ra, project được tổ chức theo cấu trúc rõ ràng gồm:
 - `screens` và `widgets`: xây dựng giao diện
 
 Dự án hướng đến việc áp dụng các best practices trong phát triển ứng dụng Flutter, giúp code dễ bảo trì và mở rộng.
+Video demo: https://drive.google.com/drive/folders/17PR44kfnnOvGRPDznmCwC0wvkCqv_p9x?usp=sharing
