@@ -1,17 +1,19 @@
-# weather_app_2224802010837
+## 🌤️ Weather App
 
-A new Flutter project.
+Weather App là một ứng dụng di động được xây dựng bằng Flutter, cho phép người dùng theo dõi thông tin thời tiết một cách nhanh chóng và trực quan.
 
-## Getting Started
+Ứng dụng cung cấp các chức năng chính như:
+- Xem thời tiết hiện tại theo thành phố hoặc vị trí người dùng
+- Dự báo thời tiết theo giờ và theo ngày
+- Hiển thị các thông tin chi tiết như độ ẩm, tốc độ gió, áp suất, tầm nhìn
+- Tìm kiếm và lưu các thành phố yêu thích
 
-This project is a starting point for a Flutter application.
+Ứng dụng sử dụng API thời tiết để lấy dữ liệu real-time, kết hợp với mô hình Provider để quản lý state và cập nhật giao diện một cách hiệu quả.
 
-A few resources to get you started if this is your first Flutter project:
+Ngoài ra, project được tổ chức theo cấu trúc rõ ràng gồm:
+- `models`: xử lý dữ liệu
+- `services`: gọi API và xử lý logic
+- `providers`: quản lý trạng thái
+- `screens` và `widgets`: xây dựng giao diện
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dự án hướng đến việc áp dụng các best practices trong phát triển ứng dụng Flutter, giúp code dễ bảo trì và mở rộng.
